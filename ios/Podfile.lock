@@ -1,0 +1,42 @@
+PODS:
+  - Flutter (1.0.0)
+  - Stripe (21.9.1):
+    - Stripe/Stripe3DS2 (= 21.9.1)
+    - StripeCore (= 21.9.1)
+    - StripeUICore (= 21.9.1)
+  - Stripe/Stripe3DS2 (21.9.1):
+    - StripeCore (= 21.9.1)
+    - StripeUICore (= 21.9.1)
+  - stripe_ios (0.0.1):
+    - Flutter
+    - Stripe (~> 21.9.0)
+  - StripeCore (21.9.1)
+  - StripeUICore (21.9.1):
+    - StripeCore (= 21.9.1)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - stripe_ios (from `.symlinks/plugins/stripe_ios/ios`)
+
+SPEC REPOS:
+  trunk:
+    - Stripe
+    - StripeCore
+    - StripeUICore
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  stripe_ios:
+    :path: ".symlinks/plugins/stripe_ios/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 50d75fe2f02b26cc09d224853bb45737f8b3214a
+  Stripe: 22c1b8da5ee20a1aaf40fd198160efa72e71644a
+  stripe_ios: fce03ba840e641cc31ff5bdb67f5d5b9c938b897
+  StripeCore: 91ea038ac0abbb72f11014044dfd1e5d39089714
+  StripeUICore: 7edf64b24c9c178bfd97e988f2cffdbb7a7628b0
+
+PODFILE CHECKSUM: 7368163408c647b7eb699d0d788ba6718e18fb8d
+
+COCOAPODS: 1.11.2
